@@ -1,6 +1,5 @@
 package leetcode.algorithm.p1;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -26,9 +25,5 @@ public class Solution {
             }
         }
         throw new IllegalArgumentException("illegal argument");
-    }
-
-    public static void main(String[] args) {
-        System.out.println(Arrays.toString(Solution.twoSum(new int[]{2, 7, 11, 15}, 9)));
     }
 }
