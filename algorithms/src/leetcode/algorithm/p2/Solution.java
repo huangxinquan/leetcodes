@@ -9,7 +9,7 @@ public class Solution {
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode result = new ListNode(0);
-        // ½øÎ»
+        // sum of carry
         int carry = 0;
         ListNode l3 = result;
         while (l1 != null || l2 != null) {
